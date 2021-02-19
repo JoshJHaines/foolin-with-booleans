@@ -40,16 +40,20 @@ function isAdmin(string) {
 	return string === "admin";
 }
 
-function isElementary(string){
-  return string === "elementary"
+function isElementary(string) {
+	return string === "elementary";
 }
 
-function areDifferentPeople(name1, name2){
-  return name1 !== name2
+function areDifferentPeople(name1, name2) {
+	return name1 !== name2;
 }
 
-function isMiddleSchoolTeacher(role, lvl){
-  return role === "teacher" && lvl >= 6 && lvl<= 8
+function isMiddleSchoolTeacher(role, lvl) {
+	return role === "teacher" && lvl >= 6 && lvl <= 8;
+}
+
+function notAnElementarySchoolAdministrator(str1, str2) {
+	return str1 !== "elementary" || str2 !== "admin";
 }
 
 /********************************************************************************************
