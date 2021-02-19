@@ -13,6 +13,10 @@ function isInDanger(grade) {
 	return grade >= 60 && grade <= 71;
 }
 
+function isCoasting(grade){
+  return grade >= 72 && grade <= 83
+}
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
