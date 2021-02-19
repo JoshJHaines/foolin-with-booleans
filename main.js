@@ -13,8 +13,12 @@ function isInDanger(grade) {
 	return grade >= 60 && grade <= 71;
 }
 
-function isCoasting(grade){
-  return grade >= 72 && grade <= 83
+function isCoasting(grade) {
+	return grade >= 72 && grade <= 83;
+}
+
+function isSucceeding(grade) {
+	return grade >= 84 && grade <= 92;
 }
 
 /********************************************************************************************
