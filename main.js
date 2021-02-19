@@ -29,6 +29,10 @@ function isAcing(grade) {
 	return grade > 92;
 }
 
+function isStudent(string){
+  return string === "student"
+}
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
